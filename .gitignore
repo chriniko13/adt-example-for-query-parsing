@@ -1,0 +1,56 @@
+# sbt
+# (may want to keep parts of 'project')
+bin/
+target/
+build/
+lib_managed
+project/project
+target
+
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+.cache*
+.scala_dependencies
+.target
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+
+# mac
+.DS_Store
+
+# other?
+.history
+.cache
+.cache-main
+
+#general
+*.class
+
+
+# Worksheets (Eclipse or IntelliJ)
+*.sc
+
+
+# Akka Persistence
+journal
+snapshots
+
+
+# ENSIME
+.ensime
+.ensime_lucene
+.ensime_cache
+
+
+# Linux OS
+.attach_pid*
