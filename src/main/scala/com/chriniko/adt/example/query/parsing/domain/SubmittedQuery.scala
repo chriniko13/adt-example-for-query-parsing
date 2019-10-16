@@ -1,6 +1,5 @@
 package com.chriniko.adt.example.query.parsing.domain
 
-import java.sql.Timestamp
 import java.time.{Clock, Instant}
 
 import spray.json.DefaultJsonProtocol._
